@@ -1,0 +1,180 @@
+.footer{
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .subscribeCover {
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .subscribeCover h2 {
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+  .subscribeCover p {
+    padding: 15px;
+  }
+  .subscribeBtn {
+    display: block;
+    margin-left: 7vw;
+    width: 86vw;
+    height: 3.5rem;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+  .subscribeBtn:hover {
+    background-color: grey;
+  }
+  .subscribeEmail {
+    display: block;
+    margin-left: 7vw;
+    width: 86vw;
+    height: 3.3rem;
+    margin-bottom: 15px;
+    border: 2px solid grey;
+    font-size: 1.3em;
+  }
+  .subscribeEmail::placeholder {
+    padding-left: 10px;
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+  
+  }
+  .footerAbout {
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .footerAbout h2 {
+    padding-left: 20px;
+    font-weight: lighter;
+   
+  }
+  .footerAbout p {
+    padding-left: 40px;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  .footerContact {
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .footerContact h2 {
+    padding-left: 20px;
+    font-weight: lighter;
+  }
+  .footerContact p {
+    padding-left: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    
+  }
+  .footerPolicies {
+   
+    padding-bottom: 10px;
+   
+    display: inline-block;
+  }
+  .footerPolicies h2 {
+    padding-left: 20px;
+    font-weight: lighter;
+  
+  }
+  .footerPolicies p {
+    padding-left: 40px;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  .footerBottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+  }
+  .social h2 {
+    font-weight: lighter;
+  }
+  .socialIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  .facebookIcon {
+   height: 8vmin;
+   width: 8vmin;
+   margin-left: 15px;
+   margin-right: 15px;
+  }
+  .whatsappIcon {
+    height: 9vmin;
+   width: 9vmin;
+   margin-left: 15px;
+   margin-right: 15px;
+  }
+  .twitterIcon {
+    height: 9vmin;
+    width: 9vmin;
+   margin-left: 15px;
+   margin-right: 15px;
+  }
+  .wechatIcon {
+    height: 9vmin;
+    width: 9vmin;
+   margin-left: 15px;
+   margin-right: 15px;
+  }
+  .footerEnding {
+    margin-right: 7vw;
+    margin-left: 7vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid white;
+  }     
+  @media screen and (min-width: 960px) {
+    .subscribeEmail {
+      display: block;
+      margin-left: 30vw;
+      width: 40vw;
+      height: 3.3rem;
+      margin-bottom: 15px;
+      border: 2px solid grey;
+      font-size: 1.3em;
+    }
+    .subscribeBtn {
+      display: block;
+      margin-left: 30vw;
+      width: 40vw;
+      height: 3.5rem;
+      margin-bottom: 15px;
+      background-color: black;
+      color: white;
+      font-size: 1em;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      border: 1px solid black;
+    }
+  } 
