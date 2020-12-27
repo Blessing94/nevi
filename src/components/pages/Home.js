@@ -70,16 +70,16 @@ export class Home extends Component {
        
         <Slider {...settings} className='slider'>
           <div className='image1'>  
-          <img src='../../../images/img-1.jpg' alt='#' />
+          <img src={process.env.PUBLIC_URL + '/images/img-1.jpg'} alt='#' />
           </div>
           <div className='image2'> 
-          <img src='../../../images/img-2.jpg' alt='#' />
+          <img src={process.env.PUBLIC_URL + '/images/img-2.jpg'} alt='#' />
           </div>
           <div className='image3'> 
-          <img src='../../../images/img-3.jpg' alt='#'/>
+          <img src={process.env.PUBLIC_URL + '/images/img-3.jpg'} alt='#'/>
           </div>
           <div className='image4'> 
-          <img src='../../../images/img-4.jpg' alt='#' />
+          <img src={process.env.PUBLIC_URL + '/images/img-4.jpg'} alt='#' />
           </div>
         </Slider>
 
@@ -102,7 +102,7 @@ export class Home extends Component {
               
               <div className='women'> 
               <Link to='/Women'>
-             <img src='../../../images/edited-img-2.jpg' alt='#' className='womenImg'/>
+             <img src={ process.env.PUBLIC_URL + '/images/edited-img-2.jpg'} alt='#' className='womenImg'/>
              </Link>
              </div>
             
@@ -110,14 +110,14 @@ export class Home extends Component {
             
               <div className='man'>
               <Link to='/Man'>
-              <img src='../../../images/man-Img.jpg' alt='#' className='manImg'/>
+              <img src={ process.env.PUBLIC_URL + '/images/man-Img.jpg'} alt='#' className='manImg'/>
               </Link>
               </div>
 
              
               <div className='kids'>
               <Link to='/Kids'>
-              <img src='../../../images/kids-Img.jpg' alt='#' className='kidsImg'/>
+              <img src={ process.env.PUBLIC_URL + '/images/kids-Img.jpg'} alt='#' className='kidsImg'/>
               </Link>
               </div>
              
@@ -125,7 +125,7 @@ export class Home extends Component {
              
               <div className='accessories'>
               <Link to='./Accessories'>
-              <img src='../../../images/accessoris-Img.jpg' alt='#' className='accesoriesImg'/>
+              <img src={ process.env.PUBLIC_URL + '/images/accessories-Img.jpg'} alt='#' className='accesoriesImg'/>
               </Link>  
               </div>         
               
@@ -138,49 +138,49 @@ export class Home extends Component {
                 </div>
                 <div className='productsGrid'>
                 <div className='item1'> 
-              <img src='../../../images/img-5.jpg' alt='#' className='item1Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-5.jpg'} alt='#' className='item1Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item2'>
-              <img src='../../../images/img-6.jpg' alt='#' className='item2Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-6.jpg'}alt='#' className='item2Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item3'>
-              <img src='../../../images/img-7.jpg' alt='#' className='item3Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-7.jpg'} alt='#' className='item3Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item4'>
-              <img src='../../../images/img-8.jpg' alt='#' className='item4Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-8.jpg'} alt='#' className='item4Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>    
               <div className='item5'> 
-              <img src='../../../images/img-9.jpg' alt='#' className='item5Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-9.jpg'} alt='#' className='item5Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item6'>
-              <img src='../../../images/img-10.jpg' alt='#' className='item6Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-10.jpg'} alt='#' className='item6Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item7'>
-              <img src='../../../images/img-11.jpg' alt='#' className='item7Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-11.jpg'} alt='#' className='item7Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item8'>
-              <img src='../../../images/img-12.jpg' alt='#' className='item8Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-12.jpg'} alt='#' className='item8Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
@@ -205,37 +205,37 @@ export class Home extends Component {
                </div>
              <div className='productsGrid'>
                 <div className='item1'> 
-              <img src='../../../images/img-15.jpg' alt='#' className='item1Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-15.jpg'} alt='#' className='item1Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item2'>
-              <img src='../../../images/img-17.jpg' alt='#' className='item2Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-17.jpg'} alt='#' className='item2Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item3'>
-              <img src='../../../images/img-18.jpg' alt='#' className='item3Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-18.jpg'} alt='#' className='item3Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item4'>
-              <img src='../../../images/img-20.jpg' alt='#' className='item4Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-20.jpg'} alt='#' className='item4Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>    
               <div className='item5'> 
-              <img src='../../../images/img-19.jpg' alt='#' className='item5Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-20.jpg'} alt='#' className='item5Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
               </div>
               <div className='item6'>
-              <img src='../../../images/img-21.jpg' alt='#' className='item6Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-21.jpg'} alt='#' className='item6Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>
@@ -249,28 +249,28 @@ export class Home extends Component {
         </div>
         <Slider {...config} className='secondSlider'>
           <div className='card1'>  
-          <img src='../../../images/img-1.jpg' alt='#' />
+          <img src={ process.env.PUBLIC_URL + '/images/img-1.jpg'} alt='#' />
             <h3> Blessing</h3>
             <p><i> "Hi, i liked the pants very much, they fit fine and the fabric is amazing
               . im going to be wearing this evry single day, to Church, work, the bar you name import PropTypes from 'prop-types'
               thanks very much."</i></p>
           </div>
           <div className='card2'> 
-          <img src='../../../images/img-2.jpg' alt='#' />
+          <img src={ process.env.PUBLIC_URL + '/images/img-2.jpg'} alt='#' />
           <h3> Christin</h3>
             <p><i> "Hi, i liked the pants very much, they fit fine and the fabric is amazing
               . im going to be wearing this evry single day, to Church, work, the bar you name import PropTypes from 'prop-types'
               thanks very much."</i></p>
           </div>
           <div className='card3'> 
-          <img src='../../../images/img-3.jpg' alt='#'/>
+          <img src={ process.env.PUBLIC_URL + '/images/img-3.jpg'} alt='#'/>
           <h3> Simba</h3>
             <p><i> "Hi, i liked the pants very much, they fit fine and the fabric is amazing
               . im going to be wearing this evry single day, to Church, work, the bar you name import PropTypes from 'prop-types'
               thanks very much."</i></p>
           </div>
           <div className='card4'> 
-          <img src='../../../images/img-4.jpg' alt='#' />
+          <img src={ process.env.PUBLIC_URL + '/images/img-4.jpg'} alt='#' />
           <h3> Dru</h3>
             <p><i> "Hi, i liked the pants very much, they fit fine and the fabric is amazing
               . im going to be wearing this evry single day, to Church, work, the bar you name import PropTypes from 'prop-types'
