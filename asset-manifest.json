@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Nevi/static/css/main.96354a9d.chunk.css",
-    "main.js": "/Nevi/static/js/main.ee5a5cba.chunk.js",
-    "main.js.map": "/Nevi/static/js/main.ee5a5cba.chunk.js.map",
+    "main.js": "/Nevi/static/js/main.e4cc0f2c.chunk.js",
+    "main.js.map": "/Nevi/static/js/main.e4cc0f2c.chunk.js.map",
     "runtime-main.js": "/Nevi/static/js/runtime-main.3311d406.js",
     "runtime-main.js.map": "/Nevi/static/js/runtime-main.3311d406.js.map",
     "static/css/2.fc79e9a3.chunk.css": "/Nevi/static/css/2.fc79e9a3.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.fc79e9a3.chunk.css",
     "static/js/2.fdb66db8.chunk.js",
     "static/css/main.96354a9d.chunk.css",
-    "static/js/main.ee5a5cba.chunk.js"
+    "static/js/main.e4cc0f2c.chunk.js"
   ]
 }
