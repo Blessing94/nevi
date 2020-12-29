@@ -25,6 +25,7 @@
   z-index: -1;
   width: 100vw;
   height: 400px;
+  top: 0;
 }
 .image1 {
  
@@ -73,7 +74,7 @@
   padding-bottom: 20px;
   color: white;
   margin-bottom: 20px;
-
+  position: relative;
 }
 .welcome p {
   padding: 5px;

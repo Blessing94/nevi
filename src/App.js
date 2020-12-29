@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import './App.css';
+import './App.css'; 
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import Pants from './components/pages/Pants';
 import Products from './components/pages/Products';
 import CustomDesign from './components/pages/CustomDesign';
@@ -25,11 +25,11 @@ function App() {
   
   return (
     <Router>
-      <ScrollToTop />
-      <Navbar />
-      <div className='App'>
-      <Switch>
-        <Route path='/' exact component={Home} />
+      <ScrollToTop /> 
+     <Navbar />
+     <div className='App'>
+       <Switch>
+        <Route  path='/' exact component={Home} />
         <Route path='/products' component={Products} />
         <Route path='/pants' component={Pants} />
         <Route path='/custom-design' component={CustomDesign} />
@@ -45,7 +45,8 @@ function App() {
         <Route path='/accessories' component={Accessories} />
       </Switch>
       </div>
-      <Footer />
+      
+     <Footer />
     </Router>
   );
 }

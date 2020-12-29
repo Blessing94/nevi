@@ -223,7 +223,7 @@ export class Home extends Component {
               <p> From RMB200</p>
               </div>
               <div className='item4'>
-              <img src={ process.env.PUBLIC_URL + '/images/img-20.jpg'} alt='#' className='item4Img'/>
+              <img src={ process.env.PUBLIC_URL + '/images/img-19.jpg'} alt='#' className='item4Img'/>
               <h3> Kente fabric</h3>
               <h3> Multi Colored </h3>
               <p> From RMB200</p>

@@ -2,7 +2,7 @@
   "name": "nevi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Blessing94.github.io/Nevi",
+  "homepage": "https://Blessing94.github.io/nevi",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
