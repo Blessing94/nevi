@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/nevi/static/css/main.1342503e.chunk.css",
-    "main.js": "/nevi/static/js/main.5b49ea13.chunk.js",
-    "main.js.map": "/nevi/static/js/main.5b49ea13.chunk.js.map",
+    "main.css": "/nevi/static/css/main.0b65f2b4.chunk.css",
+    "main.js": "/nevi/static/js/main.4ae2edcb.chunk.js",
+    "main.js.map": "/nevi/static/js/main.4ae2edcb.chunk.js.map",
     "runtime-main.js": "/nevi/static/js/runtime-main.400b25c8.js",
     "runtime-main.js.map": "/nevi/static/js/runtime-main.400b25c8.js.map",
     "static/css/2.f1a87db4.chunk.css": "/nevi/static/css/2.f1a87db4.chunk.css",
-    "static/js/2.ad042d3b.chunk.js": "/nevi/static/js/2.ad042d3b.chunk.js",
-    "static/js/2.ad042d3b.chunk.js.map": "/nevi/static/js/2.ad042d3b.chunk.js.map",
+    "static/js/2.fe935572.chunk.js": "/nevi/static/js/2.fe935572.chunk.js",
+    "static/js/2.fe935572.chunk.js.map": "/nevi/static/js/2.fe935572.chunk.js.map",
     "index.html": "/nevi/index.html",
     "static/css/2.f1a87db4.chunk.css.map": "/nevi/static/css/2.f1a87db4.chunk.css.map",
-    "static/css/main.1342503e.chunk.css.map": "/nevi/static/css/main.1342503e.chunk.css.map",
-    "static/js/2.ad042d3b.chunk.js.LICENSE.txt": "/nevi/static/js/2.ad042d3b.chunk.js.LICENSE.txt",
+    "static/css/main.0b65f2b4.chunk.css.map": "/nevi/static/css/main.0b65f2b4.chunk.css.map",
+    "static/js/2.fe935572.chunk.js.LICENSE.txt": "/nevi/static/js/2.fe935572.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/nevi/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.400b25c8.js",
     "static/css/2.f1a87db4.chunk.css",
-    "static/js/2.ad042d3b.chunk.js",
-    "static/css/main.1342503e.chunk.css",
-    "static/js/main.5b49ea13.chunk.js"
+    "static/js/2.fe935572.chunk.js",
+    "static/css/main.0b65f2b4.chunk.css",
+    "static/js/main.4ae2edcb.chunk.js"
   ]
 }
