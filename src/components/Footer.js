@@ -4,6 +4,7 @@ import { ImFacebook2 } from 'react-icons/im'
 import { FaWhatsappSquare } from 'react-icons/fa'
 import { FaTwitterSquare } from 'react-icons/fa'
 import { IoLogoWechat } from 'react-icons/io5'
+import { Link } from 'react-router-dom';
            
            
 export class Footer extends Component {
@@ -37,21 +38,26 @@ export class Footer extends Component {
        </div>
        <div className='footerInfo'>
          <div className='footerAbout'>
+           
            <h2> ABOUT</h2>
-           <p> Learn more about NEVI</p>
+            <Link to = '/About' className='aboutLink'><p>Learn more about NEVI</p></Link>
+           
          </div>
          <div className='footerContact'>
            <h2> CONTACT US</h2>
-            <p> 123-456-789 </p>
+            <p> +86 1662101960 </p>
             <p> Monday - Sunday </p>
-            <p> 10:00am - 5:00pm</p>
-            <p> 890 Tingyue Rd, Shanghai </p>
+            <p> 09:00am - 06:00pm</p>
+            
          </div>
          <div className='footerPolicies'>
+           
            <h2> POLICIES</h2>
+           <Link to='/About' className='aboutLink'>
             <p> Terms & Conditions </p>
             <p> Returns & Exchanges </p>
             <p> Shipping Policy </p>
+            </Link>
          </div>
        </div>
        <div className='footerBottom'>
@@ -66,7 +72,7 @@ export class Footer extends Component {
          </div>
          <div className='footerEnding'>
            <p>2020 N.E.V.IMPRESSIONS Designed by Blessed Designs
-             Powered by Netlify.
+             Powered by Amazon Web Services.
            </p>
          </div>
        </div>

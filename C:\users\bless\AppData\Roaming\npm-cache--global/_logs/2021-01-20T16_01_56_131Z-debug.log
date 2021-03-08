@@ -1,0 +1,244 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   '@formspree/cli'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session 6f2f02ddc0150933
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/@formspree%2fcli 220ms (from cache)
+8 silly pacote tag manifest for @formspree/cli@latest fetched in 400ms
+9 timing stage:loadCurrentTree Completed in 684ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 21ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule @formspree/cli@0.9.6 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/@formspree%2fdeploy 1021ms (from cache)
+18 silly pacote range manifest for @formspree/deploy@^0.3.3 fetched in 1052ms
+19 silly resolveWithNewModule @formspree/deploy@0.3.3 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/chalk 2784ms (from cache)
+21 http fetch GET 304 https://registry.npmjs.org/axios 2810ms (from cache)
+22 http fetch GET 304 https://registry.npmjs.org/execa 2817ms (from cache)
+23 silly pacote range manifest for chalk@^2.4.2 fetched in 2856ms
+24 silly resolveWithNewModule chalk@2.4.2 checking installable status
+25 silly pacote range manifest for axios@^0.21.1 fetched in 2935ms
+26 silly resolveWithNewModule axios@0.21.1 checking installable status
+27 http fetch GET 304 https://registry.npmjs.org/common-tags 2905ms (from cache)
+28 http fetch GET 304 https://registry.npmjs.org/yargs 2884ms (from cache)
+29 silly pacote range manifest for execa@^2.1.0 fetched in 2968ms
+30 silly resolveWithNewModule execa@2.1.0 checking installable status
+31 silly pacote range manifest for common-tags@^1.8.0 fetched in 3038ms
+32 silly resolveWithNewModule common-tags@1.8.0 checking installable status
+33 silly pacote range manifest for yargs@^15.4.1 fetched in 3004ms
+34 silly resolveWithNewModule yargs@15.4.1 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/dotenv 3158ms (from cache)
+36 silly pacote range manifest for dotenv@^8.2.0 fetched in 3177ms
+37 silly resolveWithNewModule dotenv@8.2.0 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/pacote 3724ms (from cache)
+39 silly pacote range manifest for pacote@^11.1.14 fetched in 3825ms
+40 silly resolveWithNewModule pacote@11.2.2 checking installable status
+41 http fetch GET 304 https://registry.npmjs.org/ora 3974ms (from cache)
+42 silly pacote range manifest for ora@^4.1.1 fetched in 4008ms
+43 silly resolveWithNewModule ora@4.1.1 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/follow-redirects 1088ms (from cache)
+45 silly pacote range manifest for follow-redirects@^1.10.0 fetched in 1118ms
+46 silly resolveWithNewModule follow-redirects@1.13.1 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/ansi-styles 988ms (from cache)
+48 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 1002ms (from cache)
+49 http fetch GET 304 https://registry.npmjs.org/supports-color 1004ms (from cache)
+50 silly pacote range manifest for ansi-styles@^3.2.1 fetched in 1068ms
+51 silly resolveWithNewModule ansi-styles@3.2.1 checking installable status
+52 silly pacote range manifest for escape-string-regexp@^1.0.5 fetched in 1071ms
+53 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+54 silly pacote range manifest for supports-color@^5.3.0 fetched in 1068ms
+55 silly resolveWithNewModule supports-color@5.5.0 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/color-convert 479ms (from cache)
+57 silly pacote range manifest for color-convert@^1.9.0 fetched in 514ms
+58 silly resolveWithNewModule color-convert@1.9.3 checking installable status
+59 http fetch GET 304 https://registry.npmjs.org/color-name 436ms (from cache)
+60 silly pacote version manifest for color-name@1.1.3 fetched in 468ms
+61 silly resolveWithNewModule color-name@1.1.3 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/has-flag 514ms (from cache)
+63 silly pacote range manifest for has-flag@^3.0.0 fetched in 534ms
+64 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+65 http fetch GET 200 https://registry.npmjs.org/strip-final-newline 670ms (from cache)
+66 silly pacote range manifest for strip-final-newline@^2.0.0 fetched in 700ms
+67 silly resolveWithNewModule strip-final-newline@2.0.0 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/merge-stream 1423ms (from cache)
+69 http fetch GET 304 https://registry.npmjs.org/npm-run-path 1437ms (from cache)
+70 http fetch GET 304 https://registry.npmjs.org/is-stream 1517ms (from cache)
+71 http fetch GET 304 https://registry.npmjs.org/onetime 1506ms (from cache)
+72 silly pacote range manifest for merge-stream@^2.0.0 fetched in 1555ms
+73 silly resolveWithNewModule merge-stream@2.0.0 checking installable status
+74 silly pacote range manifest for npm-run-path@^3.0.0 fetched in 1567ms
+75 silly resolveWithNewModule npm-run-path@3.1.0 checking installable status
+76 http fetch GET 304 https://registry.npmjs.org/p-finally 1554ms (from cache)
+77 http fetch GET 304 https://registry.npmjs.org/signal-exit 1553ms (from cache)
+78 silly pacote range manifest for is-stream@^2.0.0 fetched in 1600ms
+79 silly resolveWithNewModule is-stream@2.0.0 checking installable status
+80 silly pacote range manifest for onetime@^5.1.0 fetched in 1615ms
+81 silly resolveWithNewModule onetime@5.1.2 checking installable status
+82 silly pacote range manifest for p-finally@^2.0.0 fetched in 1621ms
+83 silly resolveWithNewModule p-finally@2.0.1 checking installable status
+84 silly pacote range manifest for signal-exit@^3.0.2 fetched in 1633ms
+85 silly resolveWithNewModule signal-exit@3.0.3 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/cross-spawn 1689ms (from cache)
+87 silly pacote range manifest for cross-spawn@^7.0.0 fetched in 1722ms
+88 silly resolveWithNewModule cross-spawn@7.0.3 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/get-stream 1755ms (from cache)
+90 silly pacote range manifest for get-stream@^5.0.0 fetched in 1772ms
+91 silly resolveWithNewModule get-stream@5.2.0 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/path-key 920ms (from cache)
+93 http fetch GET 304 https://registry.npmjs.org/shebang-command 919ms (from cache)
+94 http fetch GET 304 https://registry.npmjs.org/which 939ms (from cache)
+95 silly pacote range manifest for path-key@^3.1.0 fetched in 970ms
+96 silly resolveWithNewModule path-key@3.1.1 checking installable status
+97 silly pacote range manifest for shebang-command@^2.0.0 fetched in 985ms
+98 silly resolveWithNewModule shebang-command@2.0.0 checking installable status
+99 silly pacote range manifest for which@^2.0.1 fetched in 1031ms
+100 silly resolveWithNewModule which@2.0.2 checking installable status
+101 http fetch GET 304 https://registry.npmjs.org/shebang-regex 468ms (from cache)
+102 silly pacote range manifest for shebang-regex@^3.0.0 fetched in 486ms
+103 silly resolveWithNewModule shebang-regex@3.0.0 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/isexe 467ms (from cache)
+105 silly pacote range manifest for isexe@^2.0.0 fetched in 498ms
+106 silly resolveWithNewModule isexe@2.0.0 checking installable status
+107 http fetch GET 304 https://registry.npmjs.org/pump 435ms (from cache)
+108 silly pacote range manifest for pump@^3.0.0 fetched in 450ms
+109 silly resolveWithNewModule pump@3.0.0 checking installable status
+110 http fetch GET 304 https://registry.npmjs.org/end-of-stream 552ms (from cache)
+111 silly pacote range manifest for end-of-stream@^1.1.0 fetched in 586ms
+112 silly resolveWithNewModule end-of-stream@1.4.4 checking installable status
+113 http fetch GET 304 https://registry.npmjs.org/once 599ms (from cache)
+114 silly pacote range manifest for once@^1.3.1 fetched in 630ms
+115 silly resolveWithNewModule once@1.4.0 checking installable status
+116 http fetch GET 304 https://registry.npmjs.org/wrappy 489ms (from cache)
+117 silly pacote range manifest for wrappy@1 fetched in 531ms
+118 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+119 http fetch GET 304 https://registry.npmjs.org/mimic-fn 518ms (from cache)
+120 silly pacote range manifest for mimic-fn@^2.1.0 fetched in 536ms
+121 silly resolveWithNewModule mimic-fn@2.1.0 checking installable status
+122 silly pacote range manifest for chalk@^3.0.0 fetched in 202ms
+123 silly resolveWithNewModule chalk@3.0.0 checking installable status
+124 http fetch GET 304 https://registry.npmjs.org/is-interactive 618ms (from cache)
+125 silly pacote range manifest for is-interactive@^1.0.0 fetched in 682ms
+126 silly resolveWithNewModule is-interactive@1.0.0 checking installable status
+127 http fetch GET 304 https://registry.npmjs.org/cli-spinners 871ms (from cache)
+128 silly pacote range manifest for cli-spinners@^2.2.0 fetched in 918ms
+129 silly resolveWithNewModule cli-spinners@2.5.0 checking installable status
+130 http fetch GET 304 https://registry.npmjs.org/wcwidth 885ms (from cache)
+131 http fetch GET 304 https://registry.npmjs.org/cli-cursor 970ms (from cache)
+132 http fetch GET 304 https://registry.npmjs.org/strip-ansi 903ms (from cache)
+133 http fetch GET 304 https://registry.npmjs.org/mute-stream 932ms (from cache)
+134 silly pacote range manifest for wcwidth@^1.0.1 fetched in 922ms
+135 silly resolveWithNewModule wcwidth@1.0.1 checking installable status
+136 silly pacote range manifest for cli-cursor@^3.1.0 fetched in 1022ms
+137 silly resolveWithNewModule cli-cursor@3.1.0 checking installable status
+138 silly pacote range manifest for strip-ansi@^6.0.0 fetched in 953ms
+139 silly resolveWithNewModule strip-ansi@6.0.0 checking installable status
+140 silly pacote version manifest for mute-stream@0.0.8 fetched in 982ms
+141 silly resolveWithNewModule mute-stream@0.0.8 checking installable status
+142 http fetch GET 304 https://registry.npmjs.org/log-symbols 1322ms (from cache)
+143 silly pacote range manifest for log-symbols@^3.0.0 fetched in 1339ms
+144 silly resolveWithNewModule log-symbols@3.0.0 checking installable status
+145 silly pacote range manifest for ansi-styles@^4.1.0 fetched in 38ms
+146 silly resolveWithNewModule ansi-styles@4.3.0 checking installable status
+147 silly pacote range manifest for supports-color@^7.1.0 fetched in 54ms
+148 silly resolveWithNewModule supports-color@7.2.0 checking installable status
+149 silly pacote range manifest for color-convert@^2.0.1 fetched in 19ms
+150 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+151 silly pacote range manifest for color-name@~1.1.4 fetched in 3ms
+152 silly resolveWithNewModule color-name@1.1.4 checking installable status
+153 silly pacote range manifest for has-flag@^4.0.0 fetched in 15ms
+154 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+155 http fetch GET 304 https://registry.npmjs.org/restore-cursor 452ms (from cache)
+156 silly pacote range manifest for restore-cursor@^3.1.0 fetched in 467ms
+157 silly resolveWithNewModule restore-cursor@3.1.0 checking installable status
+158 http fetch GET 304 https://registry.npmjs.org/ansi-regex 1069ms (from cache)
+159 silly pacote range manifest for ansi-regex@^5.0.0 fetched in 1087ms
+160 silly resolveWithNewModule ansi-regex@5.0.0 checking installable status
+161 http fetch GET 200 https://registry.npmjs.org/defaults 34ms (from cache)
+162 silly pacote range manifest for defaults@^1.0.3 fetched in 49ms
+163 silly resolveWithNewModule defaults@1.0.3 checking installable status
+164 http fetch GET 304 https://registry.npmjs.org/clone 579ms (from cache)
+165 silly pacote range manifest for clone@^1.0.2 fetched in 601ms
+166 silly resolveWithNewModule clone@1.0.4 checking installable status
+167 http fetch GET 200 https://registry.npmjs.org/cacache 452ms (from cache)
+168 silly pacote range manifest for cacache@^15.0.5 fetched in 483ms
+169 silly resolveWithNewModule cacache@15.0.5 checking installable status
+170 http fetch GET 304 https://registry.npmjs.org/chownr 1636ms (from cache)
+171 http fetch GET 304 https://registry.npmjs.org/fs-minipass 1837ms (from cache)
+172 silly pacote range manifest for chownr@^2.0.0 fetched in 1855ms
+173 silly resolveWithNewModule chownr@2.0.0 checking installable status
+174 http fetch GET 304 https://registry.npmjs.org/@npmcli%2fpromise-spawn 1968ms (from cache)
+175 http fetch GET 304 https://registry.npmjs.org/@npmcli%2finstalled-package-contents 2037ms (from cache)
+176 http fetch GET 304 https://registry.npmjs.org/@npmcli%2frun-script 2072ms (from cache)
+177 silly pacote range manifest for fs-minipass@^2.1.0 fetched in 2054ms
+178 silly resolveWithNewModule fs-minipass@2.1.0 checking installable status
+179 silly pacote range manifest for @npmcli/promise-spawn@^1.2.0 fetched in 2121ms
+180 silly resolveWithNewModule @npmcli/promise-spawn@1.3.2 checking installable status
+181 silly pacote range manifest for @npmcli/installed-package-contents@^1.0.5 fetched in 2216ms
+182 silly resolveWithNewModule @npmcli/installed-package-contents@1.0.5 checking installable status
+183 silly pacote range manifest for @npmcli/run-script@^1.3.0 fetched in 2223ms
+184 silly resolveWithNewModule @npmcli/run-script@1.8.1 checking installable status
+185 http fetch GET 304 https://registry.npmjs.org/@npmcli%2fgit 2385ms (from cache)
+186 http fetch GET 304 https://registry.npmjs.org/mkdirp 2320ms (from cache)
+187 silly pacote range manifest for @npmcli/git@^2.0.1 fetched in 2486ms
+188 silly resolveWithNewModule @npmcli/git@2.0.4 checking installable status
+189 silly pacote range manifest for mkdirp@^1.0.3 fetched in 2424ms
+190 silly resolveWithNewModule mkdirp@1.0.4 checking installable status
+191 http fetch GET 304 https://registry.npmjs.org/minipass 2675ms (from cache)
+192 http fetch GET 304 https://registry.npmjs.org/npm-package-arg 2323ms (from cache)
+193 silly pacote range manifest for minipass@^3.1.3 fetched in 2841ms
+194 silly resolveWithNewModule minipass@3.1.3 checking installable status
+195 silly pacote range manifest for npm-package-arg@^8.0.1 fetched in 2424ms
+196 silly resolveWithNewModule npm-package-arg@8.1.0 checking installable status
+197 http fetch GET 304 https://registry.npmjs.org/infer-owner 2986ms (from cache)
+198 silly pacote range manifest for infer-owner@^1.0.4 fetched in 3055ms
+199 silly resolveWithNewModule infer-owner@1.0.4 checking installable status
+200 http fetch GET 304 https://registry.npmjs.org/npm-packlist 1204ms (from cache)
+201 silly pacote range manifest for npm-packlist@^2.1.4 fetched in 1269ms
+202 silly resolveWithNewModule npm-packlist@2.1.4 checking installable status
+203 http fetch GET 304 https://registry.npmjs.org/npm-pick-manifest 1089ms (from cache)
+204 http fetch GET 304 https://registry.npmjs.org/npm-registry-fetch 1122ms (from cache)
+205 silly pacote range manifest for npm-pick-manifest@^6.0.0 fetched in 1165ms
+206 silly resolveWithNewModule npm-pick-manifest@6.1.0 checking installable status
+207 silly pacote range manifest for npm-registry-fetch@^9.0.0 fetched in 1203ms
+208 silly resolveWithNewModule npm-registry-fetch@9.0.0 checking installable status
+209 http fetch GET 304 https://registry.npmjs.org/ssri 873ms (from cache)
+210 silly pacote range manifest for ssri@^8.0.0 fetched in 969ms
+211 silly resolveWithNewModule ssri@8.0.0 checking installable status
+212 http fetch GET 304 https://registry.npmjs.org/promise-retry 1540ms (from cache)
+213 http fetch GET 304 https://registry.npmjs.org/read-package-json-fast 1522ms (from cache)
+214 http fetch GET 304 https://registry.npmjs.org/tar 888ms (from cache)
+215 silly fetchPackageMetaData error for tar@^6.1.0 Unexpected end of JSON input while parsing near '... || 0.7 || 0.8"}},"0.'
+216 silly pacote range manifest for promise-retry@^1.1.1 fetched in 1621ms
+217 silly resolveWithNewModule promise-retry@1.1.1 checking installable status
+218 silly pacote range manifest for read-package-json-fast@^1.1.3 fetched in 1618ms
+219 silly resolveWithNewModule read-package-json-fast@1.2.1 checking installable status
+220 http fetch GET 304 https://registry.npmjs.org/rimraf 1402ms (from cache)
+221 silly pacote range manifest for rimraf@^3.0.2 fetched in 1432ms
+222 silly resolveWithNewModule rimraf@3.0.2 checking installable status
+223 timing stage:rollbackFailedOptional Completed in 13ms
+224 timing stage:runTopLevelLifecycles Completed in 23323ms
+225 verbose stack SyntaxError: Unexpected end of JSON input while parsing near '... || 0.7 || 0.8"}},"0.'
+225 verbose stack     at JSON.parse (<anonymous>)
+225 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/json-parse-better-errors/index.js:7:17)
+225 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/node-fetch-npm/src/body.js:96:50
+225 verbose stack     at runMicrotasks (<anonymous>)
+225 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+226 verbose cwd /Users/mac/Desktop/nevi/nevi
+227 verbose Darwin 17.7.0
+228 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "@formspree/cli"
+229 verbose node v12.18.1
+230 verbose npm  v6.14.5
+231 error Unexpected end of JSON input while parsing near '... || 0.7 || 0.8"}},"0.'
+232 verbose exit [ 1, true ]

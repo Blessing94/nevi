@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   '@formspree/cli',
+1 verbose cli   'formspree',
+1 verbose cli   'init'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session 23682cd9005319a4
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/formspree 2120ms
+8 http fetch GET 304 https://registry.npmjs.org/init 2422ms (from cache)
+9 silly pacote tag manifest for init@latest fetched in 2475ms
+10 http fetch GET 304 https://registry.npmjs.org/@formspree%2fcli 2801ms (from cache)
+11 silly pacote tag manifest for @formspree/cli@latest fetched in 2888ms
+12 http fetch GET 404 https://registry.npmjs.org/formspree 637ms
+13 silly fetchPackageMetaData error for formspree@latest 404 Not Found - GET https://registry.npmjs.org/formspree - Not found
+14 timing stage:rollbackFailedOptional Completed in 3ms
+15 timing stage:runTopLevelLifecycles Completed in 3208ms
+16 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/formspree - Not found
+16 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:15
+16 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+17 verbose statusCode 404
+18 verbose pkgid formspree@latest
+19 verbose cwd /Users/mac/Desktop/nevi/nevi
+20 verbose Darwin 17.7.0
+21 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "@formspree/cli" "formspree" "init"
+22 verbose node v12.18.1
+23 verbose npm  v6.14.5
+24 error code E404
+25 error 404 Not Found - GET https://registry.npmjs.org/formspree - Not found
+26 error 404
+27 error 404 'formspree@latest' is not in the npm registry.
+28 error 404 You should bug the author to publish it (or use the name yourself!)
+29 error 404 Note that you can also install from a
+30 error 404 tarball, folder, http url, or git url.
+31 verbose exit [ 1, true ]
