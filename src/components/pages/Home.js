@@ -21,7 +21,7 @@ export class Home extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
    
   }
-  
+  git
   
 
   handleChange(event) {
@@ -31,7 +31,7 @@ export class Home extends Component {
   }
   handleSubmit(event) {
   event.preventDefault();
-  }
+  } 
   
   render() {
 
