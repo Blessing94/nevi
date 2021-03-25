@@ -291,11 +291,10 @@ export class Home extends Component {
           </div>
           <div className='card4'> 
           <img src={ process.env.PUBLIC_URL + '/images/client3.jpg'} alt='#' />
-          <h3> Julie </h3>
+          <h3> Sere </h3>
             <p><i> 
-              "Hi NeVI my friend got my birthday dress from you and I must say you are talented. 
-              Thank you so so much. 
-              I was the highlight of the day. You made this birthday a memorable one. ❤️ "
+            "I absolutely love shopping with Nevi, the customer service
+              is amazing and dont get me started on the quality. Impressive. Thanks Nevi. "
               </i></p>
           </div>
           <div className='card1'>  
@@ -314,9 +313,10 @@ export class Home extends Component {
           </div>
           <div className='card3'> 
           <img src={ process.env.PUBLIC_URL + '/images/client4.jpg'} alt='#'/>
-          <h3> Sere</h3>
-            <p><i> "I absolutely love shopping with Nevi, the customer service
-              is amazing and dont get me started on the quality. Impressive. Thanks Nevi. "</i></p>
+          <h3> Julie</h3>
+            <p><i>"Hi NeVI my friend got my birthday dress from you and I must say you are talented. 
+              Thank you so so much. 
+              I was the highlight of the day. You made this birthday a memorable one. ❤️ " </i></p>
           </div>
           <div className='card4'> 
           <img src={ process.env.PUBLIC_URL + '/images/client5.jpg'} alt='#' />

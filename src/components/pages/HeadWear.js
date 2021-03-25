@@ -18,7 +18,7 @@ export default function HeadWear() {
               <img src={ process.env.PUBLIC_URL + '/images/headwear-img.jpg'} alt='#' className='item1Img'/>
               <h3> Bonnets</h3>
               <h3> Multi Colored </h3>
-              <p> From RMB100</p>
+              <p> From RMB150</p>
               </div>
               <div className='item2'>
               <img src={ process.env.PUBLIC_URL + '/images/headwear2-img.jpg'}alt='#' className='item2Img'/>
@@ -30,24 +30,24 @@ export default function HeadWear() {
               <img src={ process.env.PUBLIC_URL + '/images/headwear3-img.jpg'} alt='#' className='item3Img'/>
               <h3> Bonnet & Slippers</h3>
               <h3> Floral</h3>
-              <p> From RMB100</p>
+              <p> From RMB250</p>
               </div>
               <div className='item4'>
               <img src={ process.env.PUBLIC_URL + '/images/headwear4-img.jpg'} alt='#' className='item4Img'/>
               <h3> Silk Bonnets</h3>
-              <h3> Green, white & Pink </h3>
-              <p> From RMB100</p>
+              <h3> customizable </h3>
+              <p> From RMB150</p>
               </div>    
               <div className='item5'> 
               <img src={ process.env.PUBLIC_URL + '/images/headwear5-img.jpg'} alt='#' className='item5Img'/>
               <h3> Silk Bonnet</h3>
               <h3> Red </h3>
-              <p> From RMB100</p>
+              <p> From RMB150</p>
               </div>
               <div className='item6'>
               <img src={ process.env.PUBLIC_URL + '/images/img-20.jpg'} alt='#' className='item6Img'/>
               <h3> Wool Beanie</h3>
-              <h3> All colors Available </h3>
+              <h3> In All colors  </h3>
               <p> From RMB100</p>
               </div>
               
