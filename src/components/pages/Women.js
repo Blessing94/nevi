@@ -36,31 +36,31 @@ export class Women extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/W4.jpg'} alt='#' className='item4Img'/>
               <h3> Wrap dress</h3>
               <h3> Afro-Asian</h3>
-              <p> From RMB250</p>
+              <p> From RMB450</p>
               </div>    
               <div className='item5'> 
               <img src={ process.env.PUBLIC_URL + '/images/W5.jpg'} alt='#' className='item5Img'/>
               <h3> Night Rob</h3>
               <h3> Black</h3>
-              <p> From RMB250</p>
+              <p> From RMB350</p>
               </div>
               <div className='item6'>
               <img src={ process.env.PUBLIC_URL + '/images/W6.jpg'} alt='#' className='item6Img'/>
               <h3> Women Coat</h3>
               <h3> Black & Gold </h3>
-              <p> From RMB250</p>
+              <p> From RMB350</p>
               </div>
               <div className='item7'>
               <img src={ process.env.PUBLIC_URL + '/images/W3.jpg'} alt='#' className='item7Img'/>
               <h3> His & Hers</h3>
               <h3> Multi Colored </h3>
-              <p> From RMB250</p>
+              <p> From RMB600</p>
               </div>
               <div className='item8'>
               <img src={ process.env.PUBLIC_URL + '/images/W8.jpg'} alt='#' className='item8Img'/>
               <h3> Kimono set</h3>
               <h3> Top and Pants</h3>
-              <p> From RMB250</p>
+              <p> From RMB450</p>
               </div>     
              
                 </div>

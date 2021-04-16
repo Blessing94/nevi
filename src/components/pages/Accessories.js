@@ -36,7 +36,7 @@ export class Accessories extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/A6.jpg'} alt='#' className='item4Img'/>
               <h3> Earmuffs</h3>
               <h3> Black & Kente </h3>
-              <p> From RMB200</p>
+              <p> From RMB150</p>
               </div>    
               <div className='item5'> 
               <img src={ process.env.PUBLIC_URL + '/images/A5.jpg'} alt='#' className='item5Img'/>

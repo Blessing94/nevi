@@ -187,7 +187,7 @@ export class Home extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/img-9.jpg'} alt='#' className='item5Img'/>
               <h3> Matching shorts</h3>
               <h3> Mom & Baby </h3>
-              <p> From RMB150</p>
+              <p> From RMB500</p>
               </div>
               <div className='item6'>
               <img src={ process.env.PUBLIC_URL + '/images/img-10.jpg'} alt='#' className='item6Img'/>
@@ -223,44 +223,62 @@ export class Home extends Component {
 
              <div className='winterCollection'>
                <div>
-                 <h1>WINTER COLLECTION </h1>
+                 <h1>SUMMER COLLECTION </h1>
                </div>
              <div className='productsGrid'>
                 <div className='item1'> 
-              <img src={ process.env.PUBLIC_URL + '/images/img-15.jpg'} alt='#' className='item1Img'/>
-              <h3> Nevi Hoodie</h3>
-              <h3> Black & Orange</h3>
-              <p> From RMB150</p>
+              <img src={ process.env.PUBLIC_URL + '/images/img-24.jpg'} alt='#' className='item1Img'/>
+              <h3> Nevi wrap</h3>
+              <h3> Croptop + Shorts</h3>
+              <p> From RMB480</p>
               </div>
               <div className='item2'>
               <img src={ process.env.PUBLIC_URL + '/images/img-17.jpg'} alt='#' className='item2Img'/>
-              <h3> Winter Coat</h3>
-              <h3> Kente strip</h3>
-              <p> From RMB200</p>
+              <h3> Ankara Dress</h3>
+              <h3> Elastic Waist</h3>
+              <p> From RMB450</p>
               </div>
               <div className='item3'>
-              <img src={ process.env.PUBLIC_URL + '/images/img-18.jpg'} alt='#' className='item3Img'/>
-              <h3> Nevi Fair Wrap</h3>
-              <h3> Multi Colored </h3>
-              <p> From RMB150</p>
+              <img src={ process.env.PUBLIC_URL + '/images/img-22.jpg'} alt='#' className='item3Img'/>
+              <h3> His & Hers</h3>
+              <h3> Shorts & cross it skirt</h3>
+              <p> From RMB600</p>
               </div>
               <div className='item4'>
-              <img src={ process.env.PUBLIC_URL + '/images/img-19.jpg'} alt='#' className='item4Img'/>
-              <h3> Lapel Kimono</h3>
-              <h3> Multi Colored </h3>
-              <p> From RMB250</p>
+              <img src={ process.env.PUBLIC_URL + '/images/img-15.jpg'} alt='#' className='item4Img'/>
+              <h3> NeVI Ankara</h3>
+              <h3> Button baby doll dress </h3>
+              <p> From RMB380</p>
               </div>    
               <div className='item5'> 
-              <img src={ process.env.PUBLIC_URL + '/images/img-20.jpg'} alt='#' className='item5Img'/>
-              <h3> Nevi Beanies</h3>
-              <h3> Multi Colored </h3>
-              <p> From RMB100</p>
+              <img src={ process.env.PUBLIC_URL + '/images/img-18.jpg'} alt='#' className='item5Img'/>
+              <h3>Ankara shirt </h3>
+              <h3> Button design</h3>
+              <p> From RMB280</p>
               </div>
               <div className='item6'>
+              <img src={ process.env.PUBLIC_URL + '/images/img-19.jpg'} alt='#' className='item6Img'/>
+              <h3> 3 Layer skirt</h3>
+              <h3> Mix to Match</h3>
+              <p> From RMB550</p>
+              </div>
+              <div className='item1'>
               <img src={ process.env.PUBLIC_URL + '/images/img-21.jpg'} alt='#' className='item6Img'/>
-              <h3> Nevi Fair Wrap</h3>
-              <h3> Multi Colored </h3>
-              <p> From RMB150</p>
+              <h3> NeVI long Kimono</h3>
+              <h3> Ballon Sleeves</h3>
+              <p> From RMB480</p>
+              </div>
+              <div className='item2'>
+              <img src={ process.env.PUBLIC_URL + '/images/img-20.jpg'} alt='#' className='item6Img'/>
+              <h3> NeVI Dress</h3>
+              <h3> Customizable</h3>
+              <p> From RMB850</p>
+              </div>
+              <div className='item3'>
+              <img src={ process.env.PUBLIC_URL + '/images/img-23.jpg'} alt='#' className='item6Img'/>
+              <h3> Ankara Halter</h3>
+              <h3> Maxi Dress</h3>
+              <p> From RMB500</p>
               </div>
              
                 </div>

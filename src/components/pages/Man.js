@@ -18,7 +18,7 @@ export class Man extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/M1.jpg'} alt='#' className='item1Img'/>
               <h3> White shirt</h3>
               <h3> Kente strip </h3>
-              <p> From RMB150</p>
+              <p> From RMB250</p>
               </div>
               <div className='item2'> 
               <img src={ process.env.PUBLIC_URL + '/images/M2.jpg'}alt='#' className='item2Img'/>
