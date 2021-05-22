@@ -16,15 +16,15 @@ export class Accessories extends Component {
                 <div className='productsGrid'>
                 <div className='item1'> 
               <img src={ process.env.PUBLIC_URL + '/images/A17.jpg'} alt='#' className='item1Img'/>
-              <h3> Tassel Earings</h3>
-              <h3> Pearls & Kente </h3>
-              <p> From RMB200</p>
+              <h3> Sleep eye cover</h3>
+              <h3> African fabrics </h3>
+              <p> From RMB100</p>
               </div>
               <div className='item2'>
               <img src={ process.env.PUBLIC_URL + '/images/A16.jpg'}alt='#' className='item2Img'/>
-              <h3> Tassel Necklace </h3>
-              <h3> Pearls & Kente </h3>
-              <p> From RMB200</p>
+              <h3> Queen Tiara </h3>
+              <h3> Button Earrings </h3>
+              <p> From RMB180</p>
               </div>
               <div className='item3'>
               <img src={ process.env.PUBLIC_URL + '/images/A18.jpg'} alt='#' className='item3Img'/>
@@ -52,13 +52,13 @@ export class Accessories extends Component {
               </div>
               <div className='item7'>
               <img src={ process.env.PUBLIC_URL + '/images/A8.jpg'} alt='#' className='item7Img'/>
-              <h3> African Necklace</h3>
-              <h3> Kente Fabric </h3>
-              <p> From RMB200</p>
+              <h3> Nose Mask</h3>
+              <h3> African Fabric </h3>
+              <p> From RMB100</p>
               </div>
               <div className='item8'>
               <img src={ process.env.PUBLIC_URL + '/images/A15.jpg'} alt='#' className='item8Img'/>
-              <h3> Face Masks</h3>
+              <h3> Bow EarrAings</h3>
               <h3> More instore</h3>
               <p> From RMB100</p>
               </div>
@@ -90,7 +90,7 @@ export class Accessories extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/W12.jpg'} alt='#' className='item7Img'/>
               <h3> Headwrap</h3>
               <h3> Multi Colored </h3>
-              <p> From RMB1000</p>
+              <p> From RMB100</p>
               </div>
               <div className='item2'>
               <img src={ process.env.PUBLIC_URL + '/images/W13.jpg'} alt='#' className='item8Img'/>
